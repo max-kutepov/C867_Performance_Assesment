@@ -87,7 +87,6 @@ void Roster::remove(string studentID) {
 			}
 			classRosterArray[destIndex] = nullptr;
 			studentCount--;
-			cout << "=======================================================" << endl;
 			cout << "Student with ID " << studentID << " removed." << endl;
 		}
 		i++;

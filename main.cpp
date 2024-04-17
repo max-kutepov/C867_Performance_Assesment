@@ -8,6 +8,11 @@ using namespace std;
 //int STUDENT_SIZE = 5;
 
 int main() {
+
+	cout << "Scripting and Programing: Applications" << endl;
+	cout << "Language: C++" << endl;
+	cout << "Student ID: 011367017" << endl;
+	cout << "Name: Maxim Kutepov" << endl << endl;
 	const string studentData[] =
 	{ "A1,John,Smith,John1989@gm ail.com,20,30,35,40,SECURITY",
 	  "A2,Suzan,Erickson,Erickson_1990@gmailcom,19,50,30,40,NETWORK",
@@ -53,6 +58,8 @@ int main() {
 	classRoster.printAll();
 
 	cout << endl;
+
+	cout << "Removing A3 again." << endl;
 
 	classRoster.remove("A3");
 
