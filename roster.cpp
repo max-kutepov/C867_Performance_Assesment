@@ -16,6 +16,10 @@ Roster::Roster(Student* classArray[5])
 
 Roster::~Roster()
 {
+	for (int i = 0; i < studentCount; i++) {
+		delete classRosterArray[i];
+		classRosterArray[i] = nullptr;
+	}
 }
 
 Student* Roster::getClassRosterArrayElement(int index) {

@@ -68,9 +68,7 @@ int main() {
 
 
 	cout << "DONE";
-	for (int i = 0; i < 5; i++) {
-		delete classRoster.getClassRosterArrayElement(i);
-	}
+	
 	
 
 
